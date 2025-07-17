@@ -20,8 +20,7 @@ ConnectDB().then(()=>{
     console.log("connection succesfully established");
     app.listen(3000, ()=>{
     console.log("server is listeningg succesfully on port 3000");
-}
-);
+});
 })
 .catch((err)=>{
     console.error("connection cannot be esatablished");
